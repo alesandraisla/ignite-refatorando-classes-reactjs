@@ -1,5 +1,22 @@
+import { FiPlusSquare } from 'react-icons/fi'
+import { Container } from './styles'
+
 export function Header() {
     return(
-        <h2>Aqui é o header</h2>
+        <Container>
+        <header>
+            <img src="" alt="GoRestaurant" />
+            <nav>
+                <div>
+                <button>
+                    <div className="text">Novo Prato</div>
+                    <div className="icon">
+                    <FiPlusSquare size={24} />
+                    </div>
+                </button>
+                </div>
+            </nav>
+        </header>
+        </Container>
     )
 }

@@ -11,7 +11,6 @@ export function Dashboard() {
             <Header/>
             <ModalAddFood/>
             <ModalEditFood/>
-
             <FoodsContainer >
                 <Food/>
             </FoodsContainer>
