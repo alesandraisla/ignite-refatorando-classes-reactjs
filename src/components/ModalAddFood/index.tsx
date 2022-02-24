@@ -1,5 +1,8 @@
+
 export function ModalAddFood() {
     return(
-        <h3>Aqui é o modaladdfood</h3>
+        <div>
+            Olha eu aqui
+        </div>
     )
 }
