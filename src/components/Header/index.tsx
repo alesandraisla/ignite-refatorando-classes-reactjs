@@ -2,14 +2,18 @@ import { FiPlusSquare } from 'react-icons/fi'
 import { Container } from './styles'
 import Logo from '../../assets/logo.svg';
 
-export function Header() {
+export interface OpenModalProps {
+    openModal: () => void;
+}
+
+export function Header({ openModal}: OpenModalProps) {
     return(
         <Container>
         <header>
             <img src={Logo} alt="GoRestaurant" />
             <nav>
                 <div>
-                <button>
+                <button type="button" onClick={openModal}>
                     <div className="text">Novo Prato</div>
                     <div className="icon">
                     <FiPlusSquare size={24} />
