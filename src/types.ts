@@ -12,7 +12,7 @@ export interface FoodType {
   name: string;
   price: string;
   description: string;
-  avaiable: boolean;
+  available: boolean;
 }
 
 export interface inputProps {
