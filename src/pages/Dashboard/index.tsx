@@ -4,7 +4,7 @@ import { Header } from "../../components/Header";
 import { ModalAddFood } from "../../components/ModalAddFood";
 import { ModalEditFood } from "../../components/ModalEditFood";
 import api from "../../services/api";
-import { FoodDataType, FoodType } from "../../types";
+import { FoodDataType, FoodType } from "../../Hooks/types";
 import { FoodsContainer } from "./styles";
 
 

@@ -5,14 +5,21 @@ background-color: #c72828;
 padding: 30px 0;
 
 header {
-    width: 1280px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 0 160px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+
+    img {
+        margin-left: 20px;
+    }
 
     nav {
+        margin-right: 20px;
         div {
             button {
                 font-weight: 600;
@@ -40,4 +47,42 @@ header {
         }
     }
 }
+
+@media (max-width:768px) {
+    header {
+        }
+        nav {
+            margin-right: 40px;
+        }
+    }
+}
+
+@media (max-width:560px) {
+    header {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 123px;
+        img {
+            margin-bottom: 20px;
+            margin-left: 0px;
+            margin-right: 40px;
+        }
+        nav {
+            margin-right: 0px;
+        }
+    }
+}
+@media (max-width: 350px) {
+    header {
+        img{
+            margin-left: 40px;
+            margin-right: 40px;
+            width: 280px;
+        }
+    }
+}
+
+
+
+
 `

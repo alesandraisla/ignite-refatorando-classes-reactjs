@@ -3,6 +3,7 @@ import styled, { css } from "styled-components";
 export const Container = styled.div<{available: boolean}>`    
     background-color: #f0f0f5;
     border-radius: 8px;
+    min-width:  320px;
 
     header {
         background-color: #ffb848;
@@ -136,6 +137,14 @@ export const Container = styled.div<{available: boolean}>`
                     -ms-transform: translateX(32px);
                     transform: translateX(32px);
                 }
+            }
+        }
+    }
+
+    @media(max-width: 360px) {
+        div.availability-container {
+            p{
+                font-size: 12px;
             }
         }
     }

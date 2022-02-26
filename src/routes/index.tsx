@@ -5,7 +5,7 @@ import { Dashboard } from '../pages/Dashboard';
 const Routes = (): JSX.Element => {
     return (
         <Switch>
-        <Route path="/" exact component={Dashboard} />
+            <Route path="/" exact component={Dashboard} />
         </Switch>
     );
 };
