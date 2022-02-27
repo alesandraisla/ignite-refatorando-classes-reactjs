@@ -10,7 +10,7 @@ HTML5 - CSS3 - ReactJS - TypeScript - JSON Server (API FAKE)
 
 ## Link para visualização 🔗 
 
-[Cliqui aqui - Countdown](https://alesandraisla.github.io/countdown-rocketseat/).
+[Cliqui aqui - Refatorando classes ReactJS](https://refatorando-classes-reactjs.herokuapp.com/).
 
 ## Layout Mobile e Desktop 
 
