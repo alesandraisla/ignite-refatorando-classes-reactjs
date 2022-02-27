@@ -4,6 +4,7 @@ export const Container = styled.div<{available: boolean}>`
     background-color: #f0f0f5;
     border-radius: 8px;
     min-width:  320px;
+    min-height: 508px;
 
     header {
         background-color: #ffb848;
