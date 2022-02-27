@@ -15,7 +15,7 @@ HTML5 - CSS3 - ReactJS - TypeScript - JSON Server (API FAKE)
 ## Layout Mobile e Desktop 
 
 <div align="center">
-    <img src="./src/images/mobile.png" width="250px" align="center" margin-bottom="10px"> 
-    <img src="./src/images/tablet.png" width="250px" align="center" margin-bottom="10px"> 
-    <img src="./src/images/desktop.png" width="600px" align="center" height="400px">
+    <img src="./src/images/mobile.png" width="250px" align="center"> 
+    <img src="./src/images/tablet.png" width="450px" align="center"> 
+    <img src="./src/images/desktop.png" width="900px" align="center">
 </div>
